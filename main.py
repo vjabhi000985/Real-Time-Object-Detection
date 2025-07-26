@@ -27,7 +27,7 @@ def main():
         annotated_frame = results[0].plot()
 
         # Show the output
-        cv2.imshow("Live YOLOv8 Object Detection", annotated_frame)
+        cv2.imshow("Real Time Object Detection", annotated_frame)
 
         # Press 'q' to quit
         if cv2.waitKey(1) & 0xFF == ord('q'):
